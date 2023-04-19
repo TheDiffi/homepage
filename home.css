@@ -123,11 +123,15 @@ content>project:nth-child(2)>.project-image-section {
 }
 
 content>project:nth-child(3)>.project-image-section {
-	background-image: url("https://images.unsplash.com/photo-1660766877755-4cac24f6cf21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80");
+	background-image: url("https://ik.imagekit.io/mtkhljm5w/Metis.png?updatedAt=1680374806386");
 }
 
 content>project:nth-child(4)>.project-image-section {
-	background-image: url("https://ik.imagekit.io/mtkhljm5w/Metis.png?updatedAt=1680374806386");
+	background-image: url("./assets/ast-ma.jpeg");
+}
+
+content>project:nth-child(5)>.project-image-section {
+	background-image: url("https://cataas.com/cat");
 }
 
 content>project:last-child>.project-image-section {

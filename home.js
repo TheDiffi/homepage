@@ -1,3 +1,15 @@
+/* -- Redirect -- */
+function gotoProj(foldername){
+  window.location.href='../' + foldername;
+}
+
+function gotoSite(path){
+  window.location.href = path;
+}
+
+
+
+
 /* -- Carousel Navigation -- */
 
 let activeIndex = 0;
