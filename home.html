@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Homepage Idea</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rubik&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="home.css" />
+
+		<script src="https://kit.fontawesome.com/ee5b7d2e4b.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<content>
+			<project id="project-welcome" data-index="0" data-status="active">
+				<div class="project-image-section project-section image-symbol"></div>
+				<div class="project-description-section project-section">
+					<p>
+						<b>Hey there, </b>welcome to my little corner of the internet where I share my passion projects
+						with the world. This is a space where I get to be creative and try new things, and I'm excited
+						to take you along on this journey with me. <b>Most of my projects are not yet finished</b> and
+						many will probably never be, but that's part of the fun, right? So grab a cup of coffee, get
+						cozy, and let's explore together.
+					</p>
+				</div>
+				<div class="project-title-section project-section">
+					<h2>Hi <br />Hallo <br />Ciao</h2>
+					<i class="fa-solid fa-id-badge"></i>
+				</div>
+				<div class="project-nav-section project-section">
+					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
+						<i class="fa-solid fa-arrow-left-long"></i>
+					</button>
+					<button class="project-nav-button" type="button" onclick="handleRightClick()">
+						<i class="fa-solid fa-arrow-right-long"></i>
+					</button>
+				</div>
+			</project>
+
+			<project id="project-mortalis" data-index="1" data-status="inactive">
+				<div class="project-image-section project-section clickable" onclick="window.location.href='./map';"></div>
+				<div class="project-description-section project-section">
+					<p>An <b>Interactive Fantasy Map</b> for our home D&D game</p>
+					<p>
+						Inspired by the work of Ross Thorn aka.
+						<a class="source-link" href="https://rossthorn.github.io/index.html" target="_blank">
+							Red Giant Maps
+						</a>
+						and the helpful Blogs over at
+						<a class="source-link" href="https://housefishballoon.com/saloondria.html#/" target="_blank">
+							Saloondria
+						</a>
+					</p>
+				</div>
+				<div class="project-title-section project-section">
+					<h2>Project: MORTALIS</h2>
+					<i class="fa-solid fa-earth-africa clickable" onclick="window.location.href='./map';"></i>
+				</div>
+				<div class="project-nav-section project-section">
+					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
+						<i class="fa-solid fa-arrow-left-long"></i>
+					</button>
+					<button class="project-nav-button" type="button" onclick="handleRightClick()">
+						<i class="fa-solid fa-arrow-right-long"></i>
+					</button>
+				</div>
+			</project>
+
+			<project id="project-placeholder" data-index="3" data-status="inactive">
+				<div class="project-image-section project-section clickable"
+				onclick="window.location.href='./cats/cats.html';"></div>
+				<div class="project-description-section project-section">
+					<p>Somtimes I wonder if there's anybody out there...</p>
+				</div>
+				<div class="project-title-section project-section">
+					<h2>Placeholder: Cats!</h2>
+					<i class="fa-solid fa-user-astronaut"></i>
+				</div>
+				<div class="project-nav-section project-section">
+					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
+						<i class="fa-solid fa-arrow-left-long"></i>
+					</button>
+					<button class="project-nav-button" type="button" onclick="handleRightClick()">
+						<i class="fa-solid fa-arrow-right-long"></i>
+					</button>
+				</div>
+			</project>
+
+			<project id="project-metis" data-index="2" data-status="inactive">
+				<div
+					class="project-image-section project-section clickable"
+					onclick="window.location.href='https:\/\/metisbot.xyz/';"
+				></div>
+				<div class="project-description-section project-section">
+					 <p class="citation">
+						In ancient Greek religion, Metis was a mythical goddess, an Oceanid nymph, daughter of the
+						Titans Oceanus and Tethys. She is the mother of wisdom and deep thought.
+					</p>
+
+					<p>
+						<b>Metis</b>, a Discord bot, is the culmination of my passion for the
+						<a href="https://discord.js.org/#/">Discord API</a> and my desire to create a tool that could
+						assist with moderating our
+						<a class="source-link" href="https://discord.gg/e5u62m5FRh">DnD-LMU server</a>. With the help of
+						my friend <a class="source-link" href="https://github.com/Frostplexx">Daniel</a>, we spent
+						countless hours refining and expanding not only the bot but also our knowledge of Node.js,
+						TypeScript, SQLite, and other web development tools. While there is still much to do and many
+						ideas to persue, we're proud of what we've accomplished and are excited to share it with you.
+					</p>
+				</div>
+				<div class="project-title-section project-section">
+					<h2 >Project: METIS</h2>
+					<i class="fa-solid fa-robot clickable" onclick="window.location.href='https:\/\/metisbot.xyz/';"></i>
+				</div>
+				<div class="project-nav-section project-section">
+					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
+						<i class="fa-solid fa-arrow-left-long"></i>
+					</button>
+					<button class="project-nav-button" type="button" onclick="handleRightClick()">
+						<i class="fa-solid fa-arrow-right-long"></i>
+					</button>
+				</div>
+			</project>
+
+			<project id="project-sources" data-index="4" data-status="inactive">
+				<div class="project-image-section project-section"></div>
+				<div class="project-description-section project-section">
+					<p>
+						This Webdesign is a recreation of
+						<a class="source-link" href="https://youtu.be/nG2IyH43xMU" target="_blank">Hyperplexx</a>.
+						Original Idea by
+						<a class="source-link" href="https://www.dylanbrouwer.design/work" target="_blank"
+							>dylanbrouwer.design/work</a
+						>.
+					</p>
+				</div>
+				<div class="project-title-section project-section">
+					<h2>Recreation</h2>
+					<i class="fa-solid fa-spaghetti-monster-flying clickable" onclick="window.location.href='https:\/\/www.dylanbrouwer.design/work';"></i>
+				</div>
+				<div class="project-nav-section project-section">
+					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
+						<i class="fa-solid fa-arrow-left-long"></i>
+					</button>
+					<button class="project-nav-button" type="button" onclick="handleRightClick()">
+						<i class="fa-solid fa-arrow-right-long"></i>
+					</button>
+				</div>
+			</project>
+		</content>
+	</body>
+	<script src="home.js"></script>
+</html>
