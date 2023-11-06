@@ -138,6 +138,11 @@ content>project#project-sandbox>.project-image-section {
 	background-image: url("https://cataas.com/cat");
 }
 
+content>project#project-sandbox>.project-image-section:hover {
+	transform: scale(1) !important;
+	box-shadow: none !important;
+}
+
 content>project#project-sources>.project-image-section {
 	background-image: url("https://ik.imagekit.io/mtkhljm5w/Screenshot_2023-04-09_205049.png?updatedAt=1681066327800");
 }
