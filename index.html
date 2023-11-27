@@ -108,21 +108,55 @@
 				</div>
 			</project>
 
-			<project id="project-ast-ma" data-index="3" data-status="inactive">
+			<project id="project-dnd-player" data-index="3" data-status="inactive">
 				<div
 					class="project-image-section project-section clickable"
-					onclick="gotoSite('https:\/\/ast-ma.site/')"
+					onclick="gotoSite('https:\/\/github.com/TheDiffi/dndMusicPlayer#readme')"
+				></div>
+				<div class="project-description-section project-section">
+					<p class="citation">
+						“Where words leave off, music begins.” <br>
+						― Heinrich Heine 
+					</p>
+
+					<p>
+						The <b>DnD-Music-Player</b> project was born out of the simple necessity and desire to improve 
+						handeling the music and creating atmospheres playing DnD. It was my first introduction into <a href="https://www.electronjs.org/">electron</a>
+						and therefore the first real industry standard tech I used. Like they sometimes do, this project needed to wait in the
+						corner of my github profile for a few years before I decided it was time to give it another shot. Reworking almost everything, the current goal is to get to a
+						working app with the necessary base functionalities. And then... who knows? I might get around to review the user interviews I did back then...
+					</p>
+				</div>
+				<div class="project-title-section project-section">
+					<h2>Project: DND-PLAYER</h2>
+					<i class="fa-solid fa-music clickable" onclick="gotoSite('https:\/\/github.com/TheDiffi/dndMusicPlayer#readme')"></i>
+				</div>
+				<div class="project-nav-section project-section">
+					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
+						<i class="fa-solid fa-arrow-left-long"></i>
+					</button>
+					<button class="project-nav-button" type="button" onclick="handleRightClick()">
+						<i class="fa-solid fa-arrow-right-long"></i>
+					</button>
+				</div>
+			</project>
+
+			<project id="project-ast-ma" data-index="4" data-status="inactive">
+				<div
+					class="project-image-section project-section clickable"
+					onclick="gotoSite('https:\/\/ast-ma.xyz')"
 				></div>
 				<div class="project-description-section project-section">
 					<p class="citation">GET YOURSELF AN AST-MA!!</p>
 					<p>
 						A fun film project I did for Uni in 2022. The site is an easteregg for anyone that looks it up
-						after watching the video.
+						after watching the video. 
+						(I sadly had to ditch the .site domain since it would have cost me ~100€/year)
 					</p>
 				</div>
 				<div class="project-title-section project-section">
 					<h2>Project: AST-MA</h2>
-					<i class="fa-solid fa-robot clickable" onclick="gotoSite('https:\/\/ast-ma.site/')"></i>
+					<i class="fa-solid fa-robot clickable" onclick="gotoSite('https:\/\/ast-ma.xyz/')"></i>
 				</div>
 				<div class="project-nav-section project-section">
 					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
@@ -134,14 +168,16 @@
 				</div>
 			</project>
 
-			<project id="project-placeholder" data-index="4" data-status="inactive">
-				<div class="project-image-section project-section clickable" onclick="gotoProj('cats')"></div>
+			<project id="project-sandbox" data-index="5" data-status="inactive">
+				<div id="sandbox-container" class="project-image-section project-section clickable" onclick="gotoProj('sandbox')">
+					<iframe src="../sandbox/"  title="Sandbox" style="width: 100%;"></iframe>
+				</div>
 				<div class="project-description-section project-section">
-					<p>Cutes Placeholder I could think of until new projects get added</p>
+					<p>Explore my <a href="../sandbox/">Sandbox</a> of random things.</p>
 				</div>
 				<div class="project-title-section project-section">
-					<h2>Placeholder: Cats!</h2>
-					<i class="fa-solid fa-cat clickable" onclick="gotoProj('cats')"></i>
+					<h2>Sandbox</h2>
+					<i class="fa-solid fa-cat clickable" onclick="gotoProj('sandbox')"></i>
 				</div>
 				<div class="project-nav-section project-section">
 					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
@@ -153,7 +189,7 @@
 				</div>
 			</project>
 
-			<project id="project-sources" data-index="5" data-status="inactive">
+			<project id="project-sources" data-index="6" data-status="inactive">
 				<div
 					class="project-image-section project-section"
 					onclick="gotoSite('https:\/\/www.dylanbrouwer.design/work')"

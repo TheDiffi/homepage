@@ -113,28 +113,37 @@ content>project>.project-nav-section {
 	border-top: 1px solid var(--border-color);
 }
 
-content>project:first-child>.project-image-section {
+content>project#project-welcome>.project-image-section {
 	background-image: url(./assets/wave.svg);
 
 }
 
-content>project:nth-child(2)>.project-image-section {
+content>project#project-mortalis>.project-image-section {
 	background-image: url("https://ik.imagekit.io/mtkhljm5w/Mortalis_Map_v0.2?updatedAt=1680176584141");
 }
 
-content>project:nth-child(3)>.project-image-section {
+content>project#project-metis>.project-image-section {
 	background-image: url("https://ik.imagekit.io/mtkhljm5w/Metis.png?updatedAt=1680374806386");
 }
 
-content>project:nth-child(4)>.project-image-section {
+content>project#project-dnd-player>.project-image-section {
+	background-image: url("https://ik.imagekit.io/mtkhljm5w/music-unsplash.jpg?updatedAt=1698523308880");
+}
+
+content>project#project-ast-ma>.project-image-section {
 	background-image: url("./assets/ast-ma.jpeg");
 }
 
-content>project:nth-child(5)>.project-image-section {
+content>project#project-sandbox>.project-image-section {
 	background-image: url("https://cataas.com/cat");
 }
 
-content>project:last-child>.project-image-section {
+content>project#project-sandbox>.project-image-section:hover {
+	transform: scale(1) !important;
+	box-shadow: none !important;
+}
+
+content>project#project-sources>.project-image-section {
 	background-image: url("https://ik.imagekit.io/mtkhljm5w/Screenshot_2023-04-09_205049.png?updatedAt=1681066327800");
 }
 
@@ -161,12 +170,20 @@ content>project>.project-description-section {
 	justify-content: flex-end;
 	overflow-y: auto;
 	padding: 2rem;
+
 }
 
 content>project>.project-description-section>p {
 	color: var(--font-color-normal);
 	font-size: 1.05em;
 	overflow-y: auto;
+}
+
+content>project>.project-description-section>p.citation {
+	color: var(--font-color-normal);
+	font-size: 1.05em;
+	overflow-y: visible !important;
+	min-height: fit-content !important;
 }
 
 content>project>.project-description-section>p>a:hover {
@@ -332,7 +349,7 @@ content>project>.project-nav-section>.project-nav-button:nth-child(2) {
 	cursor: pointer;
 }
 
-@media (min-height:500px) {
+@media (max-height:500px) {
 	.project-description-section>p.citation {
 		display: none;
 
@@ -340,18 +357,18 @@ content>project>.project-nav-section>.project-nav-button:nth-child(2) {
 }
 
 mask-text {
-background-repeat: no-repeat;
-background-image: url("https://ik.imagekit.io/mtkhljm5w/default-image.jpg?updatedAt=1680176444824");
-background-position: 50% 50%;
--moz-background-size: 100%;
-background-size: 100%;
--webkit-background-clip: text;
--moz-background-clip: text;
-background-clip: text;
--webkit-transition: all 0.5s linear;
--moz-transition: all 0.5s linear;
--o-transition: all 0.5s linear;
--ms-transition: all 0.5s linear;
-transition: all 0.5s linear;
+	background-repeat: no-repeat;
+	background-image: url("https://ik.imagekit.io/mtkhljm5w/default-image.jpg?updatedAt=1680176444824");
+	background-position: 50% 50%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	transition: all 0.5s linear;
 
 }
