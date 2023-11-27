@@ -1,4 +1,5 @@
 /* -- Redirect -- */
+
 function gotoProj(foldername){
   window.location.href='../' + foldername;
 }
