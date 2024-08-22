@@ -1,223 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>David Penn</title>
-		<link rel="icon" type="image/x-icon" href="./assets/david_web.ico" />
-		<link rel="stylesheet" href="./fonts/fonts.css">
-		<link rel="stylesheet" href="home.css" />
 
-		<script src="https://kit.fontawesome.com/ee5b7d2e4b.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<content>
-			<project id="project-welcome" data-index="0" data-status="active">
-				<div class="project-image-section project-section image-symbol"></div>
-				<div class="project-description-section project-section">
-					<p>
-						<b>Hey there, </b>welcome to my little corner of the internet where I share my passion projects
-						with the world. This is a space where I get to be creative and try new things, and I'm excited
-						to take you along on this journey with me. <b>Most of my projects are not yet finished</b> and
-						many will probably never be, but that's part of the fun, right? So grab a cup of coffee, get
-						cozy, and let's explore together.
-					</p>
-				</div>
-				<div class="project-title-section project-section">
-					<h2>Hi <br />Hallo <br />Ciao</h2>
-					<i class="fa-solid fa-id-badge"></i>
-				</div>
-				<div class="project-nav-section project-section">
-					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
-						<i class="fa-solid fa-arrow-left-long"></i>
-					</button>
-					<button class="project-nav-button" type="button" onclick="handleRightClick()">
-						<i class="fa-solid fa-arrow-right-long"></i>
-					</button>
-				</div>
-			</project>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>David Penn</title>
+	<link rel="icon" type="image/x-icon" href="./assets/david_web.ico" />
+	<link rel="stylesheet" href="./fonts/fonts.css">
+	<link rel="stylesheet" href="home.css" />
 
-			<project id="project-mortalis" data-index="1" data-status="inactive">
-				<div class="project-image-section project-section clickable" onclick="gotoProj('map')"></div>
-				<div class="project-description-section project-section">
-					<p>An <b>Interactive Fantasy Map</b> for our home D&D game</p>
-					<p>
-						Inspired by the work of Ross Thorn aka.
-						<a class="source-link" href="https://rossthorn.github.io/index.html" target="_blank">
-							Red Giant Maps
-						</a>
-						and the helpful Blogs over at
-						<a class="source-link" href="https://housefishballoon.com/saloondria.html#/" target="_blank">
-							Saloondria
-						</a>
-					</p>
-				</div>
-				<div class="project-title-section project-section">
-					<h2>Project: MORTALIS</h2>
-					<i class="fa-solid fa-earth-africa clickable" onclick="gotoProj('map')"></i>
-				</div>
-				<div class="project-nav-section project-section">
-					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
-						<i class="fa-solid fa-arrow-left-long"></i>
-					</button>
-					<button class="project-nav-button" type="button" onclick="handleRightClick()">
-						<i class="fa-solid fa-arrow-right-long"></i>
-					</button>
-				</div>
-			</project>
+	<script src="https://kit.fontawesome.com/ee5b7d2e4b.js" crossorigin="anonymous"></script>
+</head>
 
-			<project id="project-metis" data-index="2" data-status="inactive">
-				<div
-					class="project-image-section project-section clickable"
-					onclick="gotoSite('https:\/\/metisbot.xyz/')"
-				></div>
-				<div class="project-description-section project-section">
-					<p class="citation">
-						In ancient Greek religion, Metis was a mythical goddess, an Oceanid nymph, daughter of the
-						Titans Oceanus and Tethys. She is the mother of wisdom and deep thought.
-					</p>
+<body>
+	<content>
+		<project id="project-welcome" data-index="0" data-status="active">
+			<div class="project-image-section project-section image-symbol"></div>
+			<div class="project-description-section project-section">
+				<p>
+					<b>Hey there, </b>welcome to my little corner of the internet where I share my passion projects
+					with the world. This is a space where I get to be creative and try new things, and I'm excited
+					to take you along on this journey with me. <b>Most of my projects are not yet finished</b> and
+					many will probably never be, but that's part of the fun, right? So grab a cup of coffee, get
+					cozy, and let's explore together.
+				</p>
+			</div>
+			<div class="project-title-section project-section">
+				<h2>Hi <br />Hallo <br />Ciao</h2>
+				<i class="fa-solid fa-id-badge"></i>
+			</div>
+			<div class="project-nav-section project-section">
+				<button class="project-nav-button " type="button" data-event="nav-button-left">
+					<i class="fa-solid fa-arrow-left-long"></i>
+				</button>
+				<button class="project-nav-button" type="button" data-event="nav-button-right">
+					<i class="fa-solid fa-arrow-right-long"></i>
+				</button>
+			</div>
+		</project>
 
-					<p>
-						<b>Metis</b>, a Discord bot, is the culmination of my passion for the
-						<a href="https://discord.js.org/#/">Discord API</a> and my desire to create a tool that could
-						assist with moderating our
-						<a class="source-link" href="https://discord.gg/e5u62m5FRh">DnD-LMU server</a>. With the help of
-						my friend <a class="source-link" href="https://github.com/Frostplexx">Daniel</a>, we spent
-						countless hours refining and expanding not only the bot but also our knowledge of Node.js,
-						TypeScript, SQLite, and other web development tools. While there is still much to do and many
-						ideas to persue, we're proud of what we've accomplished and are excited to share it with you.
-					</p>
-				</div>
-				<div class="project-title-section project-section">
-					<h2>Project: METIS</h2>
-					<i class="fa-solid fa-robot clickable" onclick="gotoSite('https:\/\/metisbot.xyz/')"></i>
-				</div>
-				<div class="project-nav-section project-section">
-					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
-						<i class="fa-solid fa-arrow-left-long"></i>
-					</button>
-					<button class="project-nav-button" type="button" onclick="handleRightClick()">
-						<i class="fa-solid fa-arrow-right-long"></i>
-					</button>
-				</div>
-			</project>
+		<project id="project-mortalis" data-index="1" data-status="inactive">
+			<div class="project-image-section project-section clickable" onclick="gotoProj('map')"></div>
+			<div class="project-description-section project-section">
+				<p>An <b>Interactive Fantasy Map</b> for our home D&D game</p>
+				<p>
+					Inspired by the work of Ross Thorn aka.
+					<a class="source-link" href="https://rossthorn.github.io/index.html" target="_blank">
+						Red Giant Maps
+					</a>
+					and the helpful Blogs over at
+					<a class="source-link" href="https://housefishballoon.com/saloondria.html#/" target="_blank">
+						Saloondria
+					</a>
+				</p>
+			</div>
+			<div class="project-title-section project-section">
+				<h2>Project: MORTALIS</h2>
+				<i class="fa-solid fa-earth-africa clickable" onclick="gotoProj('map')"></i>
+			</div>
+			<div class="project-nav-section project-section">
+				<button class="project-nav-button " type="button" data-event="nav-button-left">
+					<i class="fa-solid fa-arrow-left-long"></i>
+				</button>
+				<button class="project-nav-button" type="button" data-event="nav-button-right">
+					<i class="fa-solid fa-arrow-right-long"></i>
+				</button>
+			</div>
+		</project>
 
-			<project id="project-dnd-player" data-index="3" data-status="inactive">
-				<div
-					class="project-image-section project-section clickable"
-					onclick="gotoSite('https:\/\/github.com/TheDiffi/dndMusicPlayer#readme')"
-				></div>
-				<div class="project-description-section project-section">
-					<p class="citation">
-						“Where words leave off, music begins.” <br>
-						― Heinrich Heine 
-					</p>
+		<project id="project-metis" data-index="2" data-status="inactive">
+			<div class="project-image-section project-section clickable" onclick="gotoSite('https:\/\/metisbot.xyz/')">
+			</div>
+			<div class="project-description-section project-section">
+				<p class="citation">
+					In ancient Greek religion, Metis was a mythical goddess, an Oceanid nymph, daughter of the
+					Titans Oceanus and Tethys. She is the mother of wisdom and deep thought.
+				</p>
 
-					<p>
-						The <b>DnD-Music-Player</b> project was born out of the simple necessity and desire to improve 
-						handeling the music and creating atmospheres playing DnD. It was my first introduction into <a href="https://www.electronjs.org/">electron</a>
-						and therefore the first real industry standard tech I used. Like they sometimes do, this project needed to wait in the
-						corner of my github profile for a few years before I decided it was time to give it another shot. Reworking almost everything, the current goal is to get to a
-						working app with the necessary base functionalities. And then... who knows? I might get around to review the user interviews I did back then...
-					</p>
-				</div>
-				<div class="project-title-section project-section">
-					<h2>Project: DND-PLAYER</h2>
-					<i class="fa-solid fa-music clickable" onclick="gotoSite('https:\/\/github.com/TheDiffi/dndMusicPlayer#readme')"></i>
-				</div>
-				<div class="project-nav-section project-section">
-					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
-						<i class="fa-solid fa-arrow-left-long"></i>
-					</button>
-					<button class="project-nav-button" type="button" onclick="handleRightClick()">
-						<i class="fa-solid fa-arrow-right-long"></i>
-					</button>
-				</div>
-			</project>
+				<p>
+					<b>Metis</b>, a Discord bot, is the culmination of my passion for the
+					<a href="https://discord.js.org/#/">Discord API</a> and my desire to create a tool that could
+					assist with moderating our
+					<a class="source-link" href="https://discord.gg/e5u62m5FRh">DnD-LMU server</a>. With the help of
+					my friend <a class="source-link" href="https://github.com/Frostplexx">Daniel</a>, we spent
+					countless hours refining and expanding not only the bot but also our knowledge of Node.js,
+					TypeScript, SQLite, and other web development tools. While there is still much to do and many
+					ideas to persue, we're proud of what we've accomplished and are excited to share it with you.
+				</p>
+			</div>
+			<div class="project-title-section project-section">
+				<h2>Project: METIS</h2>
+				<i class="fa-solid fa-robot clickable" onclick="gotoSite('https:\/\/metisbot.xyz/')"></i>
+			</div>
+			<div class="project-nav-section project-section">
+				<button class="project-nav-button" type="button" data-event="nav-button-left">
+					<i class="fa-solid fa-arrow-left-long"></i>
+				</button>
+				<button class="project-nav-button" type="button" data-event="nav-button-right">
+					<i class="fa-solid fa-arrow-right-long"></i>
+				</button>
+			</div>
+		</project>
 
-			<project id="project-ast-ma" data-index="4" data-status="inactive">
-				<div
-					class="project-image-section project-section clickable"
-					onclick="gotoSite('https:\/\/ast-ma.xyz')"
-				></div>
-				<div class="project-description-section project-section">
-					<p class="citation">GET YOURSELF AN AST-MA!!</p>
-					<p>
-						A fun film project I did for Uni in 2022. The site is an easteregg for anyone that looks it up
-						after watching the video. 
-						(I sadly had to ditch the .site domain since it would have cost me ~100€/year)
-					</p>
-				</div>
-				<div class="project-title-section project-section">
-					<h2>Project: AST-MA</h2>
-					<i class="fa-solid fa-robot clickable" onclick="gotoSite('https:\/\/ast-ma.xyz/')"></i>
-				</div>
-				<div class="project-nav-section project-section">
-					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
-						<i class="fa-solid fa-arrow-left-long"></i>
-					</button>
-					<button class="project-nav-button" type="button" onclick="handleRightClick()">
-						<i class="fa-solid fa-arrow-right-long"></i>
-					</button>
-				</div>
-			</project>
+		<project id="project-dnd-player" data-index="3" data-status="inactive">
+			<div class="project-image-section project-section clickable"
+				onclick="gotoSite('https:\/\/github.com/TheDiffi/dndMusicPlayer#readme')"></div>
+			<div class="project-description-section project-section">
+				<p class="citation">
+					“Where words leave off, music begins.” <br>
+					― Heinrich Heine
+				</p>
 
-			<project id="project-sandbox" data-index="5" data-status="inactive">
-				<div id="sandbox-container" class="project-image-section project-section clickable" onclick="gotoProj('sandbox')">
-					<iframe src="../sandbox/"  title="Sandbox" style="width: 100%;"></iframe>
-				</div>
-				<div class="project-description-section project-section">
-					<p>Explore my <a href="../sandbox/">Sandbox</a> of random things.</p>
-				</div>
-				<div class="project-title-section project-section">
-					<h2>Sandbox</h2>
-					<i class="fa-solid fa-cat clickable" onclick="gotoProj('sandbox')"></i>
-				</div>
-				<div class="project-nav-section project-section">
-					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
-						<i class="fa-solid fa-arrow-left-long"></i>
-					</button>
-					<button class="project-nav-button" type="button" onclick="handleRightClick()">
-						<i class="fa-solid fa-arrow-right-long"></i>
-					</button>
-				</div>
-			</project>
+				<p>
+					The <b>DnD-Music-Player</b> project was born out of the simple necessity and desire to improve
+					handeling the music and creating atmospheres playing DnD. It was my first introduction into <a
+						href="https://www.electronjs.org/">electron</a>
+					and therefore the first real industry standard tech I used. Like they sometimes do, this project
+					needed to wait in the
+					corner of my github profile for a few years before I decided it was time to give it another shot.
+					Reworking almost everything, the current goal is to get to a
+					working app with the necessary base functionalities. And then... who knows? I might get around to
+					review the user interviews I did back then...
+				</p>
+			</div>
+			<div class="project-title-section project-section">
+				<h2>Project: DND-PLAYER</h2>
+				<i class="fa-solid fa-music clickable"
+					onclick="gotoSite('https:\/\/github.com/TheDiffi/dndMusicPlayer#readme')"></i>
+			</div>
+			<div class="project-nav-section project-section">
+				<button class="project-nav-button" type="button" data-event="nav-button-left">
+					<i class="fa-solid fa-arrow-left-long"></i>
+				</button>
+				<button class="project-nav-button" type="button" data-event="nav-button-right">
+					<i class="fa-solid fa-arrow-right-long"></i>
+				</button>
+			</div>
+		</project>
 
-			<project id="project-sources" data-index="6" data-status="inactive">
-				<div
-					class="project-image-section project-section"
-					onclick="gotoSite('https:\/\/www.dylanbrouwer.design/work')"
-				></div>
-				<div class="project-description-section project-section">
-					<p>
-						This Webdesign is a recreation of
-						<a class="source-link" href="https://youtu.be/nG2IyH43xMU" target="_blank">Hyperplexx</a>.
-						Original Idea by
-						<a class="source-link" href="https://www.dylanbrouwer.design/work" target="_blank"
-							>dylanbrouwer.design/work</a
-						>.
-					</p>
-					
-					<p><br><a href="./pp.html">privacy policy</a></p>
-				</div>
-				<div class="project-title-section project-section">
-					<h2>Recreation</h2>
-					<i
-						class="fa-solid fa-spaghetti-monster-flying clickable"
-						onclick="gotoSite('https:\/\/www.dylanbrouwer.design/work')"
-					></i>
-				</div>
-				<div class="project-nav-section project-section">
-					<button class="project-nav-button" type="button" onclick="handleLeftClick()">
-						<i class="fa-solid fa-arrow-left-long"></i>
-					</button>
-					<button class="project-nav-button" type="button" onclick="handleRightClick()">
-						<i class="fa-solid fa-arrow-right-long"></i>
-					</button>
-				</div>
-			</project>
-		</content>
-	</body>
-	<script src="home.js"></script>
+		<project id="project-ast-ma" data-index="4" data-status="inactive">
+			<div class="project-image-section project-section clickable" onclick="gotoSite('https:\/\/ast-ma.xyz')">
+			</div>
+			<div class="project-description-section project-section">
+				<p class="citation">GET YOURSELF AN AST-MA!!</p>
+				<p>
+					A fun film project I did for Uni in 2022. The site is an easteregg for anyone that looks it up
+					after watching the video.
+					(I sadly had to ditch the .site domain since it would have cost me ~100€/year)
+				</p>
+			</div>
+			<div class="project-title-section project-section">
+				<h2>Project: AST-MA</h2>
+				<i class="fa-solid fa-robot clickable" onclick="gotoSite('https:\/\/ast-ma.xyz/')"></i>
+			</div>
+			<div class="project-nav-section project-section">
+				<button class="project-nav-button" type="button" data-event="nav-button-left">
+					<i class="fa-solid fa-arrow-left-long"></i>
+				</button>
+				<button class="project-nav-button" type="button" data-event="nav-button-right">
+					<i class="fa-solid fa-arrow-right-long"></i>
+				</button>
+			</div>
+		</project>
+
+		<project id="project-sandbox" data-index="5" data-status="inactive">
+			<div id="sandbox-container" class="project-image-section project-section clickable"
+				onclick="gotoProj('sandbox')">
+				<iframe src="../sandbox/" title="Sandbox" style="width: 100%;"></iframe>
+			</div>
+			<div class="project-description-section project-section">
+				<p>Explore my <a href="../sandbox/">Sandbox</a> of random things.</p>
+			</div>
+			<div class="project-title-section project-section">
+				<h2>Sandbox</h2>
+				<i class="fa-solid fa-cat clickable" onclick="gotoProj('sandbox')"></i>
+			</div>
+			<div class="project-nav-section project-section">
+				<button class="project-nav-button" type="button" data-event="nav-button-left">
+					<i class="fa-solid fa-arrow-left-long"></i>
+				</button>
+				<button class="project-nav-button" type="button" data-event="nav-button-right">
+					<i class="fa-solid fa-arrow-right-long"></i>
+				</button>
+			</div>
+		</project>
+
+		<project id="project-sources" data-index="6" data-status="inactive">
+			<div class="project-image-section project-section"
+				onclick="gotoSite('https:\/\/www.dylanbrouwer.design/work')"></div>
+			<div class="project-description-section project-section">
+				<p>
+					This Webdesign is a recreation of
+					<a class="source-link" href="https://youtu.be/nG2IyH43xMU" target="_blank">Hyperplexx</a>.
+					Original Idea by
+					<a class="source-link" href="https://www.dylanbrouwer.design/work"
+						target="_blank">dylanbrouwer.design/work</a>.
+				</p>
+
+				<p><br><a href="./pp.html">privacy policy</a></p>
+			</div>
+			<div class="project-title-section project-section">
+				<h2>Recreation</h2>
+				<i class="fa-solid fa-spaghetti-monster-flying clickable"
+					onclick="gotoSite('https:\/\/www.dylanbrouwer.design/work')"></i>
+			</div>
+			<div class="project-nav-section project-section">
+				<button class="project-nav-button" type="button" data-event="nav-button-left">
+					<i class="fa-solid fa-arrow-left-long"></i>
+				</button>
+				<button class="project-nav-button" type="button" data-event="nav-button-right">
+					<i class="fa-solid fa-arrow-right-long"></i>
+				</button>
+			</div>
+		</project>
+	</content>
+</body>
+<script src="home.js"></script>
+
 </html>
