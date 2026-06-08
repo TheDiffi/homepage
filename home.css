@@ -148,6 +148,10 @@ content>project#project-sources>.project-image-section {
 	background-image: url("https://ik.imagekit.io/mtkhljm5w/Screenshot_2023-04-09_205049.png?updatedAt=1681066327800");
 }
 
+content>project#project-cyd-jukebox>.project-image-section {
+	background-image: url("./assets/cyd-jukebox-pixelart.png");
+}
+
 content>project>.project-image-section {
 	background-position: center;
 	background-size: cover;
